@@ -38,7 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get artifacts
-        uses: actions/downloat-artifact@v3
+        uses: actions/download-artifact@v3
         with:
           name: web-site
       - name: Output contents
